@@ -20,7 +20,6 @@ def hopper
 end
 
 def alan_kay_is_known_for
-  programmer_hash[:alan_kay][:known_for]
 	
 	programmer_hash = 
  		{
@@ -37,6 +36,8 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     
+     programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
@@ -58,8 +59,6 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-  programmer_hash[:yukishiro_matsumoto][:known_for] = "Ruby"
-  programmer_hash[:yukishiro_matsumoto][:languages] = ["LISP", "C"]
 
 	programmer_hash = 
  		{
@@ -77,7 +76,8 @@ def adding_matz
         }
      }
 
-    
+    programmer_hash[:yukishiro_matsumoto][:known_for] = "Ruby"
+  programmer_hash[:yukishiro_matsumoto][:languages] = ["LISP", "C"]
 end
 
 def changing_alan
